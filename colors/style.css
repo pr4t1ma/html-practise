@@ -1,0 +1,98 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	list-style:none;
+}
+.clearfix{
+	clear:both;
+}
+.header{
+
+}
+.header-inner{
+	width:660px;
+	margin:0px auto;
+}
+
+.home{
+	background: url(sss.jpg) no-repeat center center;
+	background-size: cover;
+	height:650px;
+}
+.logo{
+	float:left;
+	color:#fff;
+	padding-top: 25px;
+}
+.menu{
+	float:right;
+
+}
+.menu li{
+	float:left;
+	padding: 25px 15px 10px;
+	color:#fff;
+}
+.menu li.active{
+	background:#72c8d5;
+}
+.banner-text{
+	width:483px;
+	margin:230px auto;
+	font-size: 30px;
+	background: #e8eceb;
+}
+.banner-text-left{
+	float: left;
+	width: 48%;
+	text-align: right;
+	margin-right:10px;
+	color: #91c0ba;
+}
+.banner-text-right{
+	font-size: 72px;
+	font-weight: bold;
+	color: #76c7cb;
+}
+.circles{
+	width:200px;
+	margin:0px auto;
+
+}
+.circle{
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	background: #c9c0b1;
+	float:left;
+	margin:0 10px;
+}
+.circle.active{
+	background: #6bcbdb;
+}
+.services{
+	background: url(banner2.png) no-repeat center center;
+	background-size:cover;
+	height:1180px;
+}
+.about{
+	background: url(banner3.png) no-repeat center center;
+	background-size:cover;
+	height:1090px;
+}
+.work{
+	background: url(banner4.png) no-repeat center center;
+	background-size:cover;
+	height:1390px;
+}
+.contact{
+	background: url(banner-5.png) no-repeat center center;
+	background-size:cover;
+	height:0px;
+}
