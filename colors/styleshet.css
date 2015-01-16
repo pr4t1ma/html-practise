@@ -16,9 +16,11 @@ ul li{
 
 
 
-
-
 /* Style for general templates*/
+.inner-wrapper{
+	width:660px;
+	margin: 0px auto;
+}
 .header{
 	width:660px;
 	margin:0px auto;
@@ -178,4 +180,18 @@ ul li{
 }
 .category ul li.active, .category ul li:hover{
 	background: #fcc244; 
+}
+.gallery{
+	padding-bottom:40px;
+}
+.thumbnail{
+	width: 155px;
+	background: #fff;
+	color: #999;
+	float: left;
+	margin: 5px;
+}
+.caption{
+	padding: 5px;
+	text-align: center;
 }
