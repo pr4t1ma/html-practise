@@ -1,6 +1,7 @@
 body{
 	margin:0px;
 	padding:0px;
+	color: #fff;
 }
 ul{
 	margin:0px;
@@ -12,17 +13,15 @@ ul li{
 .clearfix{
 	clear:both;
 }
-.home{
-	background: #b34a4f;
-	color: #fff;
-}
+
+
+
+
+
+/* Style for general templates*/
 .header{
 	width:660px;
 	margin:0px auto;
-}
-.
-.header-inner{
-	width:660px;
 }
 .logo{
 	float:left;
@@ -35,32 +34,48 @@ ul li{
 	float:left;
 	padding:15px 15px;
 }
+.main-title{
+	margin-top:60px;
+	font-size: 40px;
+	text-align:center;
+	text-transform: uppercase;
+}
+.main-text{
+	text-align: center;
+	font-size: 13px;
+}
+.uppercase-text{
+	text-transform: uppercase;
+}
+.button{
+	width:200px;
+	margin:0px auto;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 0 5px 0 5px;
+	background: #ccc;
+	padding:10px 0;
+}
+
+
+
+/* Home page css*/
+.home{
+	background: #b34a4f;
+}
 .home .menu ul li.active{
 	background:#df5c64;
+}
+.home .button{
+	background: #df5c64;
 }
 .home-banner{
 	width: 660px;
 	margin:0px auto;
 }
-.home-title{
-	font-size: 60px;
-	margin-top: 30px;
-	text-align: center;
-	padding-bottom: 15px;
-	font-weight: normal;
-}
-.home-text{
-	font-size: 18px;
-	text-align: center;
-	padding-bottom: 10px;
-}
-.middle-text{
-	font-size: 15px;
-	text-align: center;
-}
-.bottom-text{
-	text-align:center;
-}
+
 .featured{
 	padding-top:60px;
 	width:660px;
@@ -72,18 +87,16 @@ ul li{
 .featured-box{
 	width: 143px;
 	height: 265px;
-	margin: 0px auto;
 	float: left;
-	border: 2px solid #f00;
-	margin-left:10px;
+	margin:50px 10px;
 	text-align:center;
-
+	background: #df5c64;
 }
+
 .big-circle{
 	width: 72px;
 	height: 60px;
 	background: #fff;
-	border-radius: 20px solid #fff;
 	text-align: center;
 	border-radius: 86px;
 	padding:15px 10px;
@@ -97,7 +110,7 @@ ul li{
 	border-radius: 83px;
 	margin: 0 auto;
 	border: 3px #c35055;
-	background: #f00;
+	background: #fff;
 
 }
 .featured-text{
@@ -106,46 +119,63 @@ ul li{
 	font-size: 13px;
 	padding:0 10px;
 }
+
+
+
+/*About page css*/
 .about{
 	background:#645461;
-
 }
-.header{
-	width:660px;
-	margin:0px auto;
-	color:#fff;
+.about .menu ul li.active{
+	background:#8f778d;
 }
-.header-inner{
-
-}
-.about.menu ul li.active{
-	background:#645461;
-}
-.about-title{
-	margin-top:60px;
-	font-size: 40px;
-	text-align:center;
-}
-.about-text{
-	text-align: center;
-	font-size: 13px;
-}
-.meet{
-	width:200px;
-	margin:0px auto;
-	text-align: center;
-	color: #fff;
-	margin-top: 30px;
-	font-size: 18px;
-	border-radius: 0 5px 0 5px;
+.about .button{
 	background: #9dca6b;
-	padding:10px 0;
 }
+
+
 .ads{
 	width:660px;
-	margin:10px auto;
+	margin:0px auto;
 }
 .ads-box{
 	text-align:center;
 	padding:50px 0;
+}
+.work{
+	background:#80a258;
+	color:#fff;
+}
+.work .menu ul li.work{
+	background:#9eca69;
+}
+.about-work{
+	width: 660px;
+	margin: 0px auto;
+	border-bottom: 1px solid #fff;
+}
+
+.second-header{
+	width:660px;
+	margin: 0px auto;
+	padding: 10px;
+}
+.second-header .menu li.active{
+	background: #fcc72d;
+	margin:7px;
+}
+.portfolio{
+	float:left;
+	font-size: 25px;
+}
+.category{
+	float:right;
+}
+.category ul li{
+	float:left;
+	padding:5px;
+	margin-left: 15px;
+}
+.category ul li.active, .category ul li:hover{
+	background: #fcc244; 
 }
