@@ -195,3 +195,14 @@ ul li{
 	padding: 5px;
 	text-align: center;
 }
+.contact{
+	background: #72b4aa ;
+}
+.address{
+	margin-top:70px;
+	margin-bottom:50px;
+}
+span.label{
+	display: inline-block;
+	width: 80px;
+}
