@@ -12,9 +12,12 @@
 	ul li{
 		list-style: none;
 	}
+	.clearfix{
+		clear:both;
+	}
 	.header{
 		margin-top:30px;
-		border:1px solid #eee;
+		border:1px solid #ccc;
 	}
 	.wrapper{
 		width:960px;
