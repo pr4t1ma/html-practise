@@ -17,7 +17,9 @@
 	}
 	.header{
 		margin-top:30px;
+		margin-bottom: 20px;
 		border:1px solid #ccc;
+		background: #fff;
 	}
 	.wrapper{
 		width:960px;
@@ -25,11 +27,26 @@
 	}
 	.logo{
 		float:left;
+		padding: 14px 40px;
+
 	}
 	.menu{
 		float:right;
 	}
 	.menu ul li{
 		float:left;
-		padding: 0 30px;
+		padding: 20px 30px;
+		text-transform: uppercase;
+	}
+	.menu ul li.active{
+		color:blue;
+		background: #f9f9f9;
+	}
+	.banner{
+		background:#fff;
+		border:1px solid #eee;
+	}
+	.banner img{
+		width:95%;
+		padding:5px 10px;
 	}
