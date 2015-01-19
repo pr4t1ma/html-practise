@@ -1,0 +1,188 @@
+body{
+	color:#fff;
+	margin:0px;
+	padding:0px;
+	font-family: 'Raleway', sans-serif;
+}
+.inner-wrapper{
+	margin:0px auto;
+	width:960px;
+}
+ul,li,h1,h2,h3{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	list-style:none;
+}
+input[type="text"] {
+	padding: 5px;
+	width:100%;
+	color:#fff;
+}
+textarea {
+	width: 100%;
+}
+.clearfix{
+	clear:both;
+}
+.home{
+	background: #b44b50;
+}
+.logo{
+	float:left;
+	padding:10px;
+}
+.menu{
+	float:right;
+}
+.menu ul li{
+	float:left;
+	padding:10px 40px;
+}
+.home .menu ul li.active{
+	background: #df5c64;
+}
+.main-title{
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 60px;
+}
+.main-text{
+	text-align: center;
+	margin-bottom: 30px;
+} 
+.featured{
+	padding-bottom:60px;
+}
+.featured-box{
+	width: 229px;
+	float: left;
+	text-align: center;
+	background: #c35055;
+	margin-right: 10px;
+}
+.big-circle{
+	width:70px;
+	height:70px;
+	border-radius:50px;
+	color:white;
+	background:#fff;
+	margin:40 auto;
+}
+.featured-title{
+	font-size:25px;
+	padding:20px  ;
+}
+.featured-text{
+	font-size:13px;
+	padding-bottom:30px;
+}
+.services{
+	background: #645461;
+}
+.services .menu ul li.active{
+	background: #90768f;
+}
+.button{
+	width:200px;
+	margin:0px auto;
+	text-align:center;
+	cursor: pointer;
+	border-radius: 0 5px 0 5px;
+	background: #9eca69;
+	color:#fff;
+	height:30px;
+	padding:10px 0;
+}
+.ads{
+	text-align: center;
+	margin-top: 40px;
+	padding-bottom: 60px;
+}
+.about{
+	background: #8db05e ;
+}
+.about .menu ul li.active{
+	background: #9eca69;
+}
+.about .main-text{
+	margin-bottom:20px;
+	border-bottom:1px solid #fff;
+}
+.main-portfolio{
+	margin-bottom: 10px;
+}
+.portfolio{
+	float:left;
+}
+.category{
+	float:right;
+}	 
+.category ul li{
+	float:left;
+	padding:0px 30px;
+}
+.category ul li.active{
+	background: #f9c851;
+}
+.gallery{
+	padding-bottom:60px;
+}
+.thumbnail{
+	width:155px;
+	margin:5px;
+	background:#fff;
+	color:#999;
+	float:left;
+}
+.work{
+	background: #72b4aa;
+}
+.work .menu ul li.active{
+	background: #81c7bc;
+}
+.content-title{
+	padding-bottom:20px;
+}
+
+
+
+
+.contact-col{
+	margin-right:10px;
+	float:left;
+	border:1px solid;
+}
+.contact-address{
+	width:200px;
+}
+.contact-map{
+	width:200px;
+}
+.contact-form{
+	margin-right: 0px;
+	width:500px;
+	color: #fff;
+}
+
+
+.contact-form .name, .contact-form .subject{
+	float:left;
+	width: 50%;
+	
+}
+.contact-form input[type="text"] {
+	background: #679f94;
+}
+.message textarea{
+	height:200px;
+	background:  #679f94;
+	color:#fff;
+}
+.submit{
+	text-align: center
+}
+.submit button{
+	background:#de5c64;
+}

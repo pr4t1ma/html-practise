@@ -2,8 +2,9 @@ body{
 	margin:0px;
 	padding:0px;
 	color: #fff;
+	font-family: 'Raleway', sans-serif;
 }
-ul{
+ul,li, h1, h2 , h3, h4 , h5{
 	margin:0px;
 	padding:0px;
 }
@@ -59,6 +60,7 @@ ul li{
 	border-radius: 0 5px 0 5px;
 	background: #ccc;
 	padding:10px 0;
+	cursor: pointer;
 }
 
 
@@ -195,8 +197,17 @@ ul li{
 	padding: 5px;
 	text-align: center;
 }
+
+
+
+
+
 .contact{
 	background: #72b4aa ;
+	color:#fff;
+}
+.contact .menu ul li.active{
+	background: #81c7bc;
 }
 .address{
 	margin-top:70px;
@@ -205,4 +216,41 @@ ul li{
 span.label{
 	display: inline-block;
 	width: 80px;
+}
+.left-content{
+	float:left;
+}
+.main-content{
+	float: left;
+	padding: 130px 60px;
+}
+.right-content{
+	float: left;
+	width: 200px;
+	margin-top: 60px;
+}
+
+.contact-form input[type=text]{
+	width:95px;
+	background: #679f94;
+	color:#fff;
+	font-size:15px;
+	border:0px;
+}
+.contact-form input[type=text].name-field{
+	margin-right:5px;
+}
+.text-boxes{
+	margin-bottom:10px;
+}
+.contact-form .message textarea{
+	width: 100%;
+	height: 100px;
+	padding: 7px;
+	background: #679f94;
+	color:#fff;
+}
+.contact-form .button{
+	width:150px;
+	background: #de5c64;
 }
