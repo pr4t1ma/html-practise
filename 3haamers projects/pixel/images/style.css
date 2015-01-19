@@ -22,7 +22,7 @@
 		background: #fff;
 	}
 	.wrapper{
-		width:960px;
+		width:1170px;
 		margin:0px auto;
 	}
 	.logo{
@@ -42,11 +42,33 @@
 		color:blue;
 		background: #f9f9f9;
 	}
-	.banner{
+	.slider{
 		background:#fff;
 		border:1px solid #eee;
 	}
-	.banner img{
-		width:95%;
-		padding:5px 10px;
+	.slider img{
+		width:100%;
+		display:block;
+		padding:15px;
+	}
+	.circles{
+		text-align: center;
+		margin-top:20px;
+		margin-bottom: 50px;
+	}
+	.circle{
+		width: 15px;
+		height: 15px;
+		border: 2px solid;
+		border-radius: 100%;
+		color: gray;
+		margin: 5px;
+		background: #b2b7bb;
+		display: inline-block;
+	}
+	.circle.active{
+		background:#fff;
+	}
+	.welcome{
+		text-align:center;
 	}
