@@ -45,11 +45,11 @@
 	.slider{
 		background:#fff;
 		border:1px solid #eee;
+		padding:15px;
 	}
 	.slider img{
 		width:100%;
 		display:block;
-		padding:15px;
 	}
 	.circles{
 		text-align: center;
@@ -72,3 +72,12 @@
 	.welcome{
 		text-align:center;
 	}
+	.welcome-title{
+		color:#7aad75;
+		font-size:20px;
+		margin-bottom: 25px;
+	}
+	.welcome-text{
+		color: #a098ba;
+	}
+#a098ba
