@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Speech Bubbles</title>
+	<style>
+		.bubble{
+			width:200px;
+			height: 150px;
+			background: red;
+			border-radius: 10px;
+			margin: 0 auto;
+			position: relative;
+			color: white;
+			font-size:44px;
+			text-align: center;
+			font-family: cursive;
+		}
+		.bubble::after{
+			content: "";
+			border: 26px solid transparent;
+			border-top: 30px solid red;
+			position: absolute;
+			right: 25px;
+			bottom: -56px;
+			border-left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="bubble">Hi! wassup!</div>
+</body>
+</html>

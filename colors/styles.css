@@ -23,8 +23,10 @@ input[type="text"] {
 textarea {
 	width: 100%;
 }
-.clearfix{
+.clearfix::after{
+	content:"";
 	clear:both;
+	display:block;
 }
 .home{
 	background: #b44b50;
@@ -32,6 +34,20 @@ textarea {
 .logo{
 	float:left;
 	padding:10px;
+}
+.logo::before{
+	content:'';
+	background: url(quote-left.png);
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+.logo::after{
+	content:'';
+	background: url(quote-right.png);
+	width: 16px;
+	height: 16px;
+	float: right;
 }
 .menu{
 	float:right;
