@@ -1,0 +1,54 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family :sans-serif;
+}
+ul,li,h1,h2,h3,h4,h5{
+	padding:0px;
+	margin:0px;
+}
+ul li{
+	list-style:none;
+}
+.clearfix1{
+	clear:both;
+}
+.wrapper{
+	width:1040px;
+	margin:0px auto;
+}
+.header{
+	border-top:3px #ccc;
+
+}
+.logo{
+	float:left;
+	font-family:  Mistral;
+	font-size:35px;
+	padding:5px;
+}
+.menu{
+	float:right;
+}
+.menu ul li{
+	float:left;
+	padding:17px 38px;
+	border-right:1px solid #ccc;
+	tex
+}
+.banner{
+	background: url(images/sss.jpg) no-repeat center center;
+	width:500px;
+	height:400px;
+}
+.title{
+	text-align:center;
+}
+.left-sidebar{
+	float:left;
+	width:500px;
+}
+.right-sidebar{
+	float:right;
+	width:500px;
+}
