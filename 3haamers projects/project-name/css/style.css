@@ -81,9 +81,47 @@ h2{
 	width:450px;
 }
 .popular{
-	margin-top: 50px;
+	padding: 57px;
+	border:1px solid #eee;
 
 }
 .popular h2{
+	background:#fff;
+}
+.thumbnail{
+	float: left;
+	width: 255px;
+/*	border: 1px solid;*/
+	margin-right: 77px;
+}
+.thumbnail img{
+	display:block;
+}
+.thumbnail.last{
+	margin-right:0px;
+}
+.thumbnail-box{
+	background:#eee;
+	padding:15px;
+}
+.thumbnail-box button{
+	background: #d99179;
+	color: #fff;
+	border: none;
+	padding: 13px;
+	font-size: 18px;
+	width: 222px;
+}
+.thumbnail-box button.pink{
+	background: #e48b9f;
+}
+.thumbnail-box button.yellow{
+	background: #e1db87;
+}
+.blog{
+	margin-top:50px;
+
+}
+.blog h2{
 	background:#fff;
 }
