@@ -1,0 +1,25 @@
+body{
+
+}
+.wrapper{
+	width:920px;
+	margin:0px auto;
+}
+.header{
+	background:#1e0b26;
+}
+.header-inner{
+	margin:35px 0px ;
+}
+.logo{
+	float:left;
+	
+}
+.search{
+	float:right;
+
+}
+.search input[type=search]{
+	width:312px;
+	padding:10px;
+}
