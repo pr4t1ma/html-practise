@@ -92,12 +92,18 @@
 		margin-top: 30px;
 		margin-bottom:30px;
 		text-align: center;
+		border-top:1px solid #ccc;
 	} 
 	.title{
 		border-bottom:1px solid #ccc;
+		width:300px;
+		margin:0px auto;
+		text-align:center;
 	}
 	.title h3{
-		margin-top:-20px;
+		margin: 0 auto;
+		margin: -15px;
+		background: #f1f3f5;
 	}
 	.featured .circles{
 	}
@@ -133,21 +139,6 @@
 	.circle-text{
 		padding:10px;
 	}
-
-/*#a098ba
-??
-Now you will use ../images/<image filename> from css
-example:;
-*/ 
-/* .banner {
-	background: url(../images/banner.png) no-repeat;
-} */
-/*
-../ means go one folder up like you press your up or back button from inside the folder.
-../ go out of the /css folder (where our style.css file is)
-images/ go to images/ folder where banner.png image is.
-bujyou?
-Bujena bhane ma fursad ma bujhauchhu aba.. aile lai.. pixel.html bata kei file link garnu paryo bhane folderko name/ file ko name garera link gara
-ani style.css bata garnu paryo ki ../images/ gara hai
-*/
-/*ok*/
+	.blog{
+		border-top:1px solid #ccc;
+	}

@@ -125,3 +125,51 @@ h2{
 .blog h2{
 	background:#fff;
 }
+.blog-box{
+	float: left;
+	width: 431px;
+	margin-right:80px;
+}
+.blog-box img{
+	float: left;
+	margin-right: 23px;
+}
+.blog-box h3{
+	color:#db9079;
+}
+.blog-box .text{
+	float: left;
+	width: 215px;
+}
+.blog-box button{
+	width: 180px;
+	padding: 5px;
+	background: #d69276;
+	color: #fff;
+	border: none;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.center{
+	text-align:center;
+	margin:20px;
+}
+button.transparent-btn{
+	text-align: center;
+	border: 1px solid #ccc;
+	background: none;
+	padding: 10px 20px;
+	font-size: 15px;
+}
+.footer{
+	background:#eee;
+	padding:20px;
+}
+.footer-menu ul li{
+	float:left;
+	padding-right:35px;
+	text-transform: uppercase;
+}
+.footer p{
+	padding-top:5px;
+}
