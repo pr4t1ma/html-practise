@@ -218,9 +218,17 @@ button{
 	padding-left:10px;
 	color:#735b2f;
 }
+.popular-post{
+	padding:15px;
+}
 .popular-post h3{
-	background:url(../images/icon.jpg) no-repeat center left;
+	background:url(../images/stars.jpg) no-repeat center left;
 	font-size:25px;
-	padding:15px 0;
-	padding-left:20px;
+	padding:15px 30px;
+	padding-left::;px;
+}
+.popular-post p{
+	background:url(../images/arrow.png) no-repeat center left;
+	color:#cfc6c7;
+	margin-bottom:15px;
 }
