@@ -205,8 +205,11 @@ button{
 	background: #eaeaea;
 	color: #160000;
 }
- .sidebar .subscribes p{
-	background:url(..images/icon.jpg) no-repeat center left;
-	width:20px;
+.subscribes{
+	background:#eaeaea;
+	font-size:12px;
+}
+ .subscribes p{
+	background:url(../images/icon.jpg) no-repeat center left;
 	color:red;
 }
