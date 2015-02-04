@@ -1,16 +1,13 @@
 body{
 	background:#1e0b26;
 }
-a{
-	text-decoration: none;	
-
-}
 
 a.button{
 	background: #cf2564;
 	padding: 10px;
 	color: #fff;
 	border-radius:11px;
+	text-decoration:none;
 
 }
 .clearfix{
@@ -136,7 +133,7 @@ button{
 
 .post-container{
 	float: left;
-	width: 585px;
+	width: 550px;
 	border-right:1px solid #cdcdcd ;
 	
 }
@@ -156,8 +153,8 @@ button{
 
 .sidebar{
 	float: right;
-	background: gray;
-	width: 280px;
+	background: #f4f4f4;
+	width: 308px;
 }
 .main-container h2{
 	color:#337375;
@@ -206,10 +203,24 @@ button{
 	color: #160000;
 }
 .subscribes{
-	background:#eaeaea;
-	font-size:12px;
+	background:#f4f4f4;
+	padding:3px;
+	border:1px solid;
+	margin-top:30px;
 }
  .subscribes p{
 	background:url(../images/icon.jpg) no-repeat center left;
 	color:red;
+	padding: 5px 25px;
+	border:1px solid;
+}
+.subscribes a{
+	padding-left:10px;
+	color:#735b2f;
+}
+.popular-post h3{
+	background:url(../images/icon.jpg) no-repeat center left;
+	font-size:25px;
+	padding:15px 0;
+	padding-left:20px;
 }
