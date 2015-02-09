@@ -1,0 +1,86 @@
+.clearfix{
+	clear:both;
+}
+.body{
+	font-family:sans-serif;
+}
+.page{
+	width:1024px;
+	padding:0px 48px;
+	margin:0 auto;
+}
+.header{
+	background: #2f3134;
+}
+.logo{
+	float:left;
+	padding:10px 20px;
+	padding-right:0px;
+}
+.header-text{
+	color: #fff;
+	text-align: center;
+	width: 481px;
+	float: left;
+	padding: 15px;
+	font-size: 25px;
+	}
+	.banner{
+
+	}
+	.banner img{
+		float:left;
+	}
+	.banner-text{
+		float:left;
+		width:282px;
+	}
+	.banner-text .banner-title{
+		padding-top: 18px;
+		padding-bottom: 5px;
+		font-size: 23px;
+		font-weight: 53px;
+		font-weight: 300;
+	}
+	.banner .text h3, small{
+		color: blue;
+		font-size: 20px;
+	}
+	small{
+		font-size:13px;
+	}
+	small span{
+		color:#8e0d2c;
+		font-weight: 200px;
+	}
+
+	.banner .phone-number{
+		float:left;
+		width:187px;
+	}
+	.form{
+		background: url(../images/register-form-bg.png)no-repeat center center;
+		line-height: 35px;
+		padding: 10px;
+		/* height: 130px; */
+	}
+	.form h2{
+		font-size: 16px;
+		margin-top: 10px;
+		padding-top: 10px;
+		padding-bottom: 0px;
+		margin: 0px;
+	}
+	.form .email{
+	/*	border: 1px solid;*/
+		padding: 5px;
+	}
+	.form  .label{
+		float:left;
+		padding-right: 20px;
+	}
+	.form  input[type="text"]{
+		float: right;
+		padding: 6px;
+		/* height: 27px; */
+	}
