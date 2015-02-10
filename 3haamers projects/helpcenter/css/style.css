@@ -30,10 +30,12 @@
 	}
 	.banner img{
 		float:left;
+		padding-right:20px;
 	}
 	.banner-text{
 		float:left;
 		width:282px;
+		padding-left:20px;
 	}
 	.banner-text .banner-title{
 		padding-top: 18px;
@@ -49,7 +51,7 @@
 	small{
 		font-size:13px;
 	}
-	small span{
+	 span{
 		color:#8e0d2c;
 		font-weight: 200px;
 	}
@@ -57,11 +59,14 @@
 	.banner .phone-number{
 		float:left;
 		width:187px;
+		font-size:24px;
+		padding: 90px 57px;
 	}
 	.form{
 		background: url(../images/register-form-bg.png)no-repeat center center;
-		line-height: 35px;
-		padding: 10px;
+		padding: 14px;
+		height: 130px;
+		width: 261px;
 		/* height: 130px; */
 	}
 	.form h2{
@@ -70,6 +75,7 @@
 		padding-top: 10px;
 		padding-bottom: 0px;
 		margin: 0px;
+		color:#aa566a;
 	}
 	.form .email{
 	/*	border: 1px solid;*/
@@ -78,9 +84,210 @@
 	.form  .label{
 		float:left;
 		padding-right: 20px;
+		color:#82befb;
+		width:58px;
 	}
 	.form  input[type="text"]{
 		float: right;
 		padding: 6px;
 		/* height: 27px; */
+	}
+	.form button{
+		float:right;
+		background: #4c4c4c;
+		color:#fff;
+		padding: 5px;
+		margin-top:7px;
+		border-radius:3px;
+		border:none;
+	}
+	.phone-number{
+		padding-top: 90px;
+		padding-left:20px;
+	}
+	.phone-number h2{
+		;
+	}
+	.phone-number p{
+		font-size: 14px;
+	}
+	.featured{
+
+	}
+	.featured-box{
+		float:left;
+		width:311px;
+		padding:10px;
+		margin-right:10px;
+		color:#fff;
+	}
+	.featured .featured-box h2{
+		font-size:27px;
+	}
+	.featured-box.green{
+		background: url(../images/featured-bg.png) repeat-x 0 0;
+		border: 1px solid #6dd200;
+		height:107px;
+
+	}
+
+	.featured-box.green button{
+		background: url(../images/button.png) repeat-x 0 0;
+		border:none;
+		line-height: 26px;
+		width: 107px;
+		float: right;
+		margin: 5px 0;
+		
+	}
+	
+
+	.featured-box.yellow{
+		background:url(../images/featured-bg1.png) repeat-x 0 0;
+		border:1px solid #d27d00;
+		height:106px;
+	}
+
+	.featured-box.pink button{
+		background: url(../images/button-pink.png) repeat-x 0 0;
+		border:none;
+		line-height: 26px;
+		width: 107px;
+		float: right;
+		margin: 5px 0;
+		
+	}
+
+	.featured-box.pink{
+		background:url(../images/banner-bg2.png) repeat-x 0 0;
+		border:1px solid #bb008d;
+		height:105px;
+		margin-right:0px;
+	}
+
+	.featured-box.yellow button{
+		background: url(../images/button-bg.png) repeat-x 0 0;
+		border:none;
+		line-height: 26px;
+		width: 107px;
+		float: right;
+		margin: 5px 0;
+		
+	}
+	.featured button{
+		color:#fff;
+	}
+	.main-container{
+		color:#000;
+	}
+	.sidebar{
+		float:left;
+		width:321px;
+		padding:15px 0;
+		padding-right:20px;
+		padding-bottom:0px;
+	}
+	.sidebar img{
+		height:196px;
+	}
+	.sidebar-title h4{
+		border-radius: 5px;
+		border: 1px solid;
+		width: 270px;
+		background: #82befb;
+		padding: 10px;
+		color:#fff;
+	}
+	.sidebar-text{
+		color:#aa4a61;
+		line-height:35px;
+		font-size:20px;
+	}
+	.contain{
+		float:left;
+		width:681px;
+	}
+	.contain h2{
+		font-size:30px;
+		padding-top:30px;
+	}
+	.contain .welcome p{
+		padding:10px 0;
+	}
+	.services-listing{
+		padding-top:15px;
+		padding-bottom:35px;
+
+	}
+	.services-title{
+		float:left;
+		width:244px;
+		padding-left:96px;
+		padding-bottom:30px;
+	}
+	.services-title.icon-one{
+		background: url(../images/icon.png)no-repeat 0 0;
+		line-height:20px;
+	}
+	.services-title.icon-two{
+		background: url(../images/logo2.png)no-repeat 0 0;
+		line-height:20px;
+	}
+	.services-title.icon-three{
+		background: url(../images/logo1.png)no-repeat 0 0;
+		line-height:20px;
+	}
+	.services-title.icon-four {
+		background: url(../images/logo3.png)no-repeat 0 0;
+		line-height:20px;
+	}
+	.services-title h3{
+		font-size: 18px;
+		color: #8e0d2c;
+		padding-bottom: 5px
+	}
+	.last-service-listing{
+		padding-top:30px;
+		padding-bottom:0px;
+
+	}
+	.footer-top{
+		background: #a8bece;
+		color:#fff;
+	}
+	.footer-top p{
+		width:320px;
+		float:left;
+		padding:12px;
+		line-height: 25px
+	}
+	.footer-top p.last{
+		padding-right:0px;
+	}
+	.footer-bottom{
+		background: #000;
+	}
+	.footer-menu{
+		float:left;
+		padding:10px;
+		padding-top:30px;
+	}
+	.footer-menu ul li{
+		float:left;
+		padding:0px 10px;
+		border-right:1px solid #fff;
+
+	}
+	.footer-menu ul li.last{
+		border:none;
+	}
+	.footer-menu a{
+		text-decoration:none;
+		color:#fff;
+	}
+	.copyright{
+		float:right;
+		color:#fff;
+		padding:10px;
+		padding-top:25px;
 	}
