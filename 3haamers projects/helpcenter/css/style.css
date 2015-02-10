@@ -37,6 +37,9 @@
 		width:282px;
 		padding-left:20px;
 	}
+	.banner .text{
+		padding-bottom:10px;
+	}
 	.banner-text .banner-title{
 		padding-top: 18px;
 		padding-bottom: 5px;
@@ -63,10 +66,11 @@
 		padding: 90px 57px;
 	}
 	.form{
-		background: url(../images/register-form-bg.png)no-repeat center center;
+		background: url(../images/register-form-bg.png)no-repeat 0 0;
 		padding: 14px;
 		height: 130px;
 		width: 261px;
+		padding:10px 5;
 		/* height: 130px; */
 	}
 	.form h2{
@@ -106,7 +110,7 @@
 		padding-left:20px;
 	}
 	.phone-number h2{
-		;
+		padding-bottom:5px;
 	}
 	.phone-number p{
 		font-size: 14px;
@@ -192,9 +196,10 @@
 	}
 	.sidebar-title h4{
 		border-radius: 5px;
+		font-size:20px;
 		border: 1px solid;
 		width: 270px;
-		background: #82befb;
+		background: #a8bece;
 		padding: 10px;
 		color:#fff;
 	}
@@ -265,7 +270,7 @@
 		padding-right:0px;
 	}
 	.footer-bottom{
-		background: #000;
+		background:url(../images/footer-bg.png) repeat-x 0 0;
 	}
 	.footer-menu{
 		float:left;
