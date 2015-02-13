@@ -47,11 +47,11 @@
 		font-weight: 53px;
 		font-weight: 300;
 	}
-	.banner .text h3, small{
+	.banner .text h3, .banner small{
 		color: blue;
 		font-size: 20px;
 	}
-	small{
+	.banner small{
 		font-size:13px;
 	}
 	 span{

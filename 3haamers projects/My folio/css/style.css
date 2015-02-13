@@ -1,0 +1,268 @@
+body p{
+	font-family:arial;
+	font-size:14px;
+	line-height:21px;
+}
+.page-wrapper{
+	width:1100px;
+	margin:0px auto;
+	background: #333a42;
+}
+.clearfix{
+	clear:both;
+}
+.main-container{
+	width:912px;
+	margin:0px auto;
+	padding-top: 20px;
+}
+.left-sidebar{
+	width:691px;
+	float:left;
+	padding-top:20px;
+	background: #fff;
+	position:relative;
+}
+.border{
+	background: url(../images/page-design.png) repeat-x left top;
+	position:absolute;
+	width:100%;
+	left:0px;
+	top:-14px;
+	height:20px;
+}
+
+.header{
+	text-transform: uppercase;
+	border-bottom:1px dotted #eee;
+}
+.header h1{
+	color:#262b31;
+	font-size: 40px;
+	text-align:center;
+	margin:40px 0;
+}
+.date{
+	width: 51px;
+	height: 74px;
+	text-align: center;
+	background: #ff3399;
+	border-radius: 5px 0 0 5px;
+	color: #fff;
+	position: absolute;
+	left: -51px;
+	top: 0;
+	z-index: 8;
+}
+.days{
+	font-size:35px;
+	padding-top:10px;
+}
+.month{
+	font-size: 20px;
+	font-family:impact;
+	text-transform: uppercase;
+}
+.post{
+	position:relative;
+	padding:20px;
+}
+.post img{
+
+
+}
+.post-title{
+	background: #ffffff;
+	width: 245px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 0 0  25px 0;
+	height: 50px;
+	padding: 10px;
+}
+.post-title h2{
+	font-size: 26px;
+	color: #f73092;
+	font-weight: 400;
+	margin-bottom:2px;
+	font-family:impact;
+	padding-bottom: 10px;
+	line-height: 15px;
+}
+.post-title h5{
+	color:#cccccc;
+}
+.post-title span{
+	color:#e74272;
+}
+.comment-count{
+	background: url(../images/bubbles.png) no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size:12px;
+	line-height:24px;
+	text-align:center;
+}
+.post-text{
+	padding: 16px 0px 35px 0;
+	padding-bottom:35px;
+	color:#838585;
+	font-size:18px;
+	border-bottom:1px dotted #cccccc;
+
+}
+.post-text.last{
+	 border:none;
+}
+.footer{
+	background: url(../images/footer-bg.png) no-repeat 0 0;
+}
+.footer h1{
+	width: 592px;
+	margin: 0 auto;
+	font-size: 22px;
+	color: #d80d72;
+
+}
+.right-sidebar{
+	float:left;
+	width:230px;
+	margin-right:60px;
+}
+.right-sidebar a{
+	text-decoration: none;
+	color:#fff;
+}
+.right-sidebar .menu .active a{
+	color:#000;
+
+}
+.right-sidebar .menu ul li.active{
+	background: #fff
+}
+.icon{
+	padding: 60px 0px 59px 20px;
+}
+.right-sidebar .icon ul li a{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	color: red;
+	border-radius: 100%;
+	background: #262b31;
+	float: left;
+	margin-right: 10px;
+}
+.right-sidebar .icon ul li a:hover{
+	background: #ccc;
+}
+.right-sidebar ul li a i.icon-fb{
+	background: url(../images/fb-logo.png) no-repeat 0 0;
+	width: 18px;
+	height: 34px;
+	display: inline-block;
+	margin-top: 13px;
+	
+}
+.right-sidebar ul li a i.icon-t{
+	background: url(../images/icon-t.png) no-repeat 0 0;
+	width: 18px;
+	height: 34px;
+	display: inline-block;
+	margin-top: 13px;
+	
+}
+.right-sidebar a{
+	text-decoration: none;
+}
+.right-sidebar ul li a i.icon-rss{
+	background: url(../images/icon-rss.png) no-repeat 0 0;
+	width: 29px;
+	height: 25px;
+	display: inline-block;
+	margin-top: 14px;
+}
+.menu ul li{
+	background: url(../images/button-bg.png) repeat-x 0 0;
+	padding: 15px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.search{
+	padding: 0 0 0 10px;
+	width: 236px;
+	margin-top: 23px;
+	font-size:17px;
+}
+.search input[type=text]{
+	padding: 2px;
+	float: left;
+	height: 32px;
+}
+.search input[type=submit]{
+	background: url(../images/search-img.png)no-repeat 0 0;
+	height: 45px;
+	width: 51px;
+	font-size: 0;
+	border:none;
+}
+.list{
+	padding-left:20px;
+}
+.list h2{
+	font-size: 25px;
+	padding: 25px 0;
+	text-align: center;
+	color: #fff;
+}
+.list ul li{
+	background: url(../images/star.png)no-repeat 0 0;
+	height:33px;
+}
+.list ul li a{
+	padding-left:50px;
+	line-height:22px;
+	color:#62748b;
+}
+.list.recent-comments ul li{
+	background: none;
+
+
+}
+.list.recent-comments a {
+	padding-left:10px;
+}
+.list ul li a{
+	line-height:15px;
+}
+.list.recent-comments h2{
+	font-size:25px;
+	
+}
+.list.recent-comments span{
+	color:#fff;
+}
+.calender{
+	background: url(../images/calender.png) no-repeat 23px 0;
+	height: 246px
+}
+.list p{
+	width: 163px;
+	margin: 0px auto;
+	font-size: 15px;
+	color:#fff;
+}
+.list p.active{
+	color:#547998;
+	margin-top:10px;
+	font-size:11px;
+}
+.list p.active span{
+	color:#fff;
+}
+
