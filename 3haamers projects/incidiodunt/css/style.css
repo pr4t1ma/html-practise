@@ -1,0 +1,32 @@
+.clearfix{
+	clear:both;
+}
+body{
+	font-family:sans-serif;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+.page-wrapper{
+	width:1279px;
+	margin:0px auto;
+}
+.header{
+	background:#02918d;
+	padding:10px;
+	color:#fff;
+}
+.header h2{
+	float:left;
+}
+.header h2 span{
+	color:#cfc81d; 
+}
+.menu{
+	float:right;
+}
+.menu ul li{
+	float:left;
+	padding-right:40px;
+}

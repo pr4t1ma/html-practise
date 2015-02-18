@@ -1,8 +1,15 @@
 .clearfix{
 	clear:both;
 }
-.body{
-	font-family:sans-serif;
+
+h2{
+	 font-family: 'samarkannormal';
+	 font-size: 20px;
+
+}
+
+body{
+	font-family: 'Pacifico', cursive; 	
 }
 .page{
 	width:1024px;
