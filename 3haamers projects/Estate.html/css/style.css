@@ -7,7 +7,6 @@ a{
 }
 body{
 	font-family:sans-serif;
-	background: #141414;
 }
 h2{
 	text-align: center;
@@ -163,6 +162,9 @@ h2{
 	background: #fff;
 	overflow: hidden;
 }
+.bedrooms{
+	background: url(..images/bedroom-icon.png) no-repeat 0 0;
+}
 .pagination a{
 	width:100px;
 	float:left;
@@ -210,6 +212,7 @@ h2{
 	overflow: hidden;
 }
 .features {
+	position:relative;
 	color: #a3a3a3;
 	float: left;
 	width: 155px;
