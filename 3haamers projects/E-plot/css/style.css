@@ -92,8 +92,8 @@ a{
 	width: 32px;
 	height: 13px;
 }
+/*...sidebar-start*/
 .banner .banner-sidebar{
-	background: #6c8e9c;
 	position: absolute;
 	right: 0px;
 	height: 100%;
@@ -107,8 +107,8 @@ a{
 .banner-sidebar .books{
 	background:#6c8e9c;
 	border:1px solid;
-	padding-bottom:10px;
-	;
+	padding-bottom:29px;
+	padding-left: 50px;
 }
 .banner-sidebar .books.wide-format{
 	background: #84c1bc;
@@ -117,8 +117,21 @@ a{
 	background: #83c984;
 	padding-bottom: 70px
 }
+.banner-sidebar .brochures.business{
+	background: #cecc1f;
+}
+.banner-sidebar .brochures.flyers{
+	background: #e0b016;
+}
+.banner-sidebar .brochures.printing{
+	background: #f8842d;
+}
+.banner-sidebar .brochures.laser{
+	background: #ed524d;
+}
 .banner-sidebar h4{
 	padding:15px;
+	font-weight: 500;
 }
 
 .banner-sidebar ul li{
@@ -126,6 +139,9 @@ a{
 	padding-left:30px;
 	line-height: 20px;
 }
+
+/*.........banner-sidebar end*/
+
 
  .banner h5{
 	padding-top: 20px;
