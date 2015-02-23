@@ -1,0 +1,279 @@
+body{
+	font-family:sans-serif;
+}
+
+
+a{
+	text-decoration: none;
+}
+.clearfix{
+	clear:both;
+}
+/*... start page*/
+.page{
+	margin:0px auto;
+}
+
+.page-wrapper{
+	width: 1290px;
+	margin:0px auto;
+}
+/*...end page*/
+
+
+/*...header*/
+.header{
+	width: 1115px;
+	margin:0px auto;
+	padding:30px 0;
+	text-transform: uppercase;
+	overflow: hidden
+}
+.header .logo{
+	float:left;
+}
+.header .menu{
+	float:right;
+
+}
+.header .menu ul li a{
+	color:#949394;
+}
+.header .menu ul li a:hover{
+	background: #000;
+	color:#fff;
+	padding: 5px;
+	border-radius: 5px	
+
+}
+.header .menu ul li{
+	float:left;
+	padding:30px 20px 0px 20px;
+	font-size:14px;
+}
+.header .main-menu{
+	float:right;
+}
+.header .main-menu ul li {
+	float:left;
+	padding:45px 20px 30px 18px;
+
+}
+.header .main-menu ul li a{
+	color:#383637;
+	font-weight:600;
+}
+.header .main-menu ul li a i.right-arrow{
+	background: url(../images/menu-arrow.png) no-repeat right 4px;
+	text-indent: 14px;
+	padding-right: 10px;
+}
+.header .main-menu ul li a i:hover{
+	border-radius: 10px;
+	padding:5px;
+	background: #eee;
+}
+/*..header end...*/
+
+/*..banner...*/
+.banner{
+	position:relative;
+}
+.scroll  {
+	position: absolute;
+	left: 50%;
+	bottom: 8px;
+	padding: 15px;
+	color: #fff;
+}
+.banner .scroll a {
+	background: url(../images/down-arrow.png) no-repeat center center;
+	position: absolute;
+	width: 32px;
+	height: 13px;
+}
+.banner .banner-sidebar{
+	background: #6c8e9c;
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	width: 407px;
+	top: 0px;
+	color: #fff;
+	text-transform: uppercase;
+	overflow: hidden;
+
+}
+.banner-sidebar .books{
+	background:#6c8e9c;
+	border:1px solid;
+	padding-bottom:10px;
+	;
+}
+.banner-sidebar .books.wide-format{
+	background: #84c1bc;
+}
+.banner-sidebar .brochures{
+	background: #83c984;
+	padding-bottom: 70px
+}
+.banner-sidebar h4{
+	padding:15px;
+}
+
+.banner-sidebar ul li{
+	font-size: 12px;
+	padding-left:30px;
+	line-height: 20px;
+}
+
+ .banner h5{
+	padding-top: 20px;
+}
+/*....end banner....*/
+
+/*...CONTENT....*/
+.content{
+	margin:30px 0;
+}
+.content .product-small{
+	margin-right:30px;
+	float:left;
+	position:relative;
+}
+.content .product-large{
+	float:left;
+	position:relative;
+	/*border-right:35px solid #383637;*/
+}
+/*..end content*/
+
+/*...start simple-img*/
+ a.right-arrow{
+	background: #000 url(../images/right-arrow.png) no-repeat 10px 217px;
+	width: 30px;
+	height: 100%;
+	position: absolute;
+	right: 0px;
+	bottom: 0%;
+	text-align: center;
+	opacity: 0.5;
+}
+
+.simple-img{
+	margin:30px 0;
+
+}
+
+.simple-img .left-img{
+	float:left;
+	margin-right:30px;
+	position: relative;
+}
+
+.simple-img .right-img{
+	float:left;
+	position: relative;
+}
+/*..end simple-img*/
+
+
+/*..start logo display*/
+.logo-display{
+	position:relative;
+}
+.logo-display a.logo-arrow{
+	bottom: 50%;
+	height: 13px;
+	width: 13px;
+	position: absolute;
+}
+.logo-display a.logo-arrow.left{
+	background: url(../images/logo-display-left.png) no-repeat 0 0;
+	left: 5px;
+}
+.logo-display a.logo-arrow.right{
+	background: url(../images/logo-display-right.png) no-repeat 0 0;
+	right: 5px;
+}
+.rectangle{
+	float:left;
+	margin:0px 45px;
+}
+/*...end logo-display*/
+
+.footer{
+
+	background: #383637;
+	color:#ebebeb;
+	margin-top:60px;
+}
+
+
+.footer h2{
+	color:#fff;
+	padding: 0px 0px 40px 40px;
+	line-height: 35px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.footer-inner{
+	width: 1290px;
+	margin:0px auto;
+	padding-top:45px;
+	padding-bottom:80px ;
+}
+.footer-box{
+	float:left;
+	width:300px;
+}
+.footer-menu{
+	padding-left:60px;
+}
+.footer .footer-menu ul li a{
+	color:#ebebeb;
+	line-height:25px;
+	font-size:14px;
+}
+.footer p{
+	padding-left:40px;
+	font-size:14px;
+	line-height:30px;
+}
+.footer p.active{
+	line-height:0px;
+}
+ 
+.footer p:nth-child(1){
+	padding:20px 40px
+}
+.foote p:nth-child(2){
+	padding:0px 0px 50px 20;
+}
+.footer .footer-box.house-keeping{
+	background: url(../images/footer-logo.jpg) no-repeat 0 0;
+	height:39px;
+	text-indent: 14px;
+}
+ .footer-box.social-hub{
+	background: url(../images/footer-logo-3.jpg) no-repeat 0 0;
+	text-indent: 14px;
+}
+.footer-box.keep-in-touch{
+	background: url(../images/footer-logo-2.jpg) no-repeat 0 0;
+	text-indent: 14px;
+}
+.footer-box.picture{
+	background: url(../images/footer-logo-4.jpg) no-repeat 0 0;
+	text-indent: 14px;
+}
+.footer button{
+	padding: 10px 30px 10px 10px;
+	border: 3px solid #ed524d;
+	color: #ed524d;
+	text-transform: uppercase;
+	background: #383637 url(../images/red-arrow.png) no-repeat 125px center;
+	margin: 35px 0 0 36px;
+	outline: non;
+}
