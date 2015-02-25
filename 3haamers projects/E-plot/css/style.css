@@ -92,7 +92,7 @@ a{
 	width: 32px;
 	height: 13px;
 }
-/*...sidebar-start*/
+/*...sidebar-menu-start*/
 .banner .banner-sidebar{
 	position: absolute;
 	right: 0px;
@@ -140,9 +140,66 @@ a{
 	line-height: 20px;
 }
 
-/*.........banner-sidebar end*/
+/*.........banner-sidebar-menu end*/
 
-
+/*...start banner-sidebar-form...*/
+.banner-sidebar.form{
+	background: #383637;
+	padding: 40px 35px;
+	box-sizing: border-box;
+}
+.banner-sidebar.form h2{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 35px;
+	padding-bottom: 16px;
+	border-bottom:1px solid #47b9ad;
+}
+.banner-sidebar.form label{
+	color:#47b9ad;
+	font-weight: 600;
+	display:block;
+}
+.banner-sidebar.form input/*[type=text]*/ {
+	width: 250px;
+	padding: 12px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	border:none;
+	background:#ebebeb; 
+	box-sizing:border-box;
+}
+.banner-sidebar.form button.green {
+	border: 2px solid #47b9ad;
+	color: #47b9ad;
+	margin:20px 0px;
+	display: block;
+	padding: 5px 10px 5px 5px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background: url(../images/green-arrow.png)no-repeat 95% center;
+}
+.banner-sidebar.form button.green.gray{
+	background: url(../images/gray-arrow.png)no-repeat 95% center;
+	border:2px solid #898989;
+	color:#898989;
+} 
+.banner-sidebar.form a.forgot-password {
+	color: #808080;
+	padding: 20px 0px;                           
+	display: block;
+	font-size: 12px;
+}
+.banner-sidebar.form .user{
+	margin-top:300px;
+	border-top:1px solid #47b9ad;
+}
+.banner-sidebar.form .user button{
+	float:right;
+	display: block;
+	clear:both;
+}
  .banner h5{
 	padding-top: 20px;
 }
