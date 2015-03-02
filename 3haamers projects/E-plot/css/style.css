@@ -713,15 +713,13 @@ a.right-arrow
     font-size: 18px;
     font-weight: 600;
 
-    margin: 20px 0 40px 0;
-
     text-transform: uppercase;
 }
 .leaser-box p
 {
     font-size: 15px;
     line-height: 25px;
-    color: #eee;
+   
 }
 .leaser-box
 {
@@ -730,6 +728,20 @@ a.right-arrow
     width: 850px;
     margin-top: 50px;
 }
+.leaser-box.second,.leaser-box.second
+{
+    margin-top:30px;
+
+}
+.leaser-box.second .icon,.leaser-box.second .icon
+{
+    padding: 60px 70px;
+} 
+.leaser-box.third p
+{
+  color: #eee;  
+}
+
 .sidebar{
     float:right;
 }
@@ -934,4 +946,21 @@ float:left;
 {
     width:350px;
     margin-bottom:15px;
+}
+/*..end info css....*/
+
+/*...blog css start*/
+.leaser-box .post {
+    margin: 0;
+}
+.leaser-box.post
+{
+   /* margin:20px 0;*/
+}
+.leaser-box.post .title
+{
+    padding:0px;
+}
+.leaser-box.post .icon{
+    padding: 55px 70px;
 }
