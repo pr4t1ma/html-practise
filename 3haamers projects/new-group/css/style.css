@@ -1,0 +1,58 @@
+body
+{
+	font-family :sans-serif;
+	font-size: 15px
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.clearfix
+{
+	clear:both;
+}
+
+.page
+{
+	width:1420px;
+	margin:0 auto;
+}
+
+.header
+{
+	/*color:#fff;*/
+	background: url (../images/header-img.jpg) no-repeat 0 0;
+}
+	
+.header .logo 
+{
+	float:left;
+
+	font-weight:600;
+}
+
+
+
+.header .logo
+{
+	text-transform: uppercase;
+
+	padding:30px 0 0 115px;
+}
+.header .menu
+{
+	float:right;
+}
+
+.header .menu ul li 
+{
+	float:left;
+
+	padding:30px 15px 25px 30px;
+}
+.header .menu ul li a
+{
+	color:;
+}
