@@ -385,3 +385,15 @@ h2
 	font-family: open sans-serif;
 	font-size: 13px;
 }
+/*....finished team....*/
+
+/*start third banner from here.....*/
+.banner-third
+{
+	margin:95px 0 75px 0;
+}
+.banner-third
+{
+	background: url(../images/banner3.png) no-repeat 0 0;
+	height:365px;
+}
