@@ -7,7 +7,9 @@ button
 {
 	border:1px solid;
 	background: #fff;
-	padding:10px;
+	font-style: italic;
+	font-size: 15px;
+	padding: 10px 20px;
 }
 a
 {
@@ -32,7 +34,7 @@ a
 h2
 {
 	font-size: 50px;
-	margin-bottom:55px
+	margin-bottom:55px ;
 }
 .banner
 {
@@ -178,10 +180,11 @@ h2
 	margin-top:90px;
 	width:570px;
 }
-}
 .our-story-right a
 {
 	margin-top:30px;
+	display: block;
+	color: #000;
 }
 /*...end about us.....*/
 
@@ -190,6 +193,7 @@ h2
 {
 	background: url(../images/square-life.jpg) no-repeat right center #fbf9ec;
 	height:730px;
+	margin-bottom:120px;
 }
 .services h3
 {
@@ -199,6 +203,10 @@ h2
 	width: 500px;
 	
 }
+.services h2
+{
+	margin-top:55px;
+}
 .services h4
 {
 	font-size: 20px;
@@ -207,7 +215,10 @@ h2
 .services-info
 {
 	float:left;
-	width:700px;
+}
+.info-box
+{
+	clear:both;
 }
 .services .left-col, .services .right-col
 {
@@ -219,6 +230,11 @@ h2
 	width:230px;
 	margin-right: 35px;
 }
+.services .left-col,.services .right-col p
+{
+	font-family:open sans;
+	font-size: 13px
+}
 .services .right-col
 {
 	float:left;
@@ -227,7 +243,7 @@ h2
 .management,  .creative,
 .communication,.technical
 {
-	margin:60px 0 50px 0;
+	margin: 20px 0 15px 0;
 	padding:5px 0 0 55px;
 }
 .management
@@ -245,4 +261,127 @@ h2
 .communication
 {
 	background: url(../images/communication.png) no-repeat 0 0;
+}
+
+/*....end services css here....*/
+/*...start portfolio......*/
+.portfolio
+{
+	margin-bottom:50px;
+}
+.portfolio .menu
+{
+	float:right;
+}
+.portfolio h2
+{
+	float:left;
+}
+.portfolio h3
+{
+	clear:both;
+	font-style: italic;
+	font-size: 30px;
+	border-bottom: 1px solid  #918f8f;
+	padding-bottom: 50px
+	
+
+}
+.portfolio .menu ul li
+{
+	float:left;
+	padding:10px;
+}
+.portfolio .menu ul li a
+{
+	color:#b6a7ae;
+}
+.portfolio .menu ul li.active a
+{
+	color:#f00;
+	border:2px solid;
+	padding:15px;
+}
+
+/*....end portfolio.....*/
+
+/*....start thumbnail from here*/
+.thumbnail
+{
+	margin-bottom:80px;
+}
+.thumbnail-box-left
+{
+	float:left;
+	width:570px;
+	display: inline
+}
+.thumbnail-box-right
+{
+	float:left;
+	width:570px;
+}
+.thumbnail-box-right img
+{
+/*	float:left;*/
+	
+}
+.thumbnail button
+{
+	display: block;
+	margin: 0px auto;
+}
+/*....end thumbnail.....*/
+.banner-second
+{
+	background: url(../images/banner2.png)no-repeat 0 0;
+	height:432px;
+	background-size:cover ;
+
+}
+.banner-second p
+{
+	font-style: italic;
+	font-size:81px;
+	text-align:center;
+	color:#fff;
+	padding:145px 0;
+}
+
+/*...end second banner...*/
+
+.team
+{
+	font-style: italic;
+}
+.left-team
+{
+	float:left;
+	width:570px;
+}
+.left-team  p{                 
+	font-size: 40px
+}
+.right-team
+{
+	float:right;
+	width:570px;
+}
+.right-team p
+{
+	font-size: 25px;
+	margin-top: 115px
+}
+.name-list ul li
+{
+	float:left;
+	padding: 20px 87px;
+	font-size: 20px;
+}
+.job-description 	ul li
+{
+	float:left;
+	padding: 0px 77px;
+	font-family: open sans-serif;
+	font-size: 13px;
 }
