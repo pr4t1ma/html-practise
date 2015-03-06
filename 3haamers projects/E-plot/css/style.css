@@ -25,11 +25,13 @@ a
 }
 h1,.title
 {
-font-size:18px;
-margin:10px 0;
-font-weight:600;
-text-transform:uppercase;
-font-family: 'Lato', sans-serif;
+    margin:10px 0;
+
+    text-transform:uppercase;
+    
+    font-weight:600; 
+    font-size:18px;
+    font-family: 'Lato', sans-serif;
 }
 
 p{
@@ -563,7 +565,7 @@ a.left-arrow
 
     color: #ebebeb;
     background: #383637;
-    
+
     clear:both;
 }
 
