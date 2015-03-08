@@ -5,20 +5,29 @@ body
 }
 button
 {
-	border:1px solid;
+	border:4px solid;
 	background: #fff;
 	font-style: italic;
-	font-size: 15px;
-	padding: 10px 20px;
+	padding: 23px 53px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: georgia;
+}
+.btn-wrapper 
+{
+	padding: 86px 0 64px 0;
+	text-align: center;
 }
 a
 {
 	text-decoration: none;
 }
 
-.clearfix
-{
-	clear:both;
+.clearfix::after
+{	
+	content: "";
+	clear: both;
+	display: block;
 }
 
 .page
@@ -34,7 +43,7 @@ a
 h2
 {
 	font-size: 50px;
-	margin-bottom:55px ;
+	margin: 75px 0 85px 0;
 }
 .banner
 {
@@ -269,11 +278,13 @@ h2
 {
 	margin-bottom:50px;
 }
-.portfolio .menu
+.portfolio .menu,
+.blog .menu
 {
 	float:right;
 }
-.portfolio h2
+.portfolio h2,
+.blog h2
 {
 	float:left;
 }
@@ -287,17 +298,21 @@ h2
 	
 
 }
-.portfolio .menu ul li
+.portfolio .menu ul li,
+.blog .menu ul li
 {
 	float:left;
 	padding:10px;
 }
-.portfolio .menu ul li a
+.portfolio .menu ul li a,
+.blog .menu ul li a
 {
 	color:#b6a7ae;
 }
-.portfolio .menu ul li.active a
-{
+.portfolio .menu ul li.active a,
+.blog .menu ul li.active a
+
+{	
 	color:#f00;
 	border:2px solid;
 	padding:15px;
@@ -310,22 +325,30 @@ h2
 {
 	margin-bottom:80px;
 }
-.thumbnail-box-left
+.thumbnail-box-group
 {
 	float:left;
-	width:570px;
-	display: inline
+	width:562px;
+	display: inline;
+	margin-bottom: 10px;
 }
-.thumbnail-box-right
+.thumbnail-box-group:nth-child(2n+1)
 {
-	float:left;
-	width:570px;
+	margin-right: 16px;
 }
-.thumbnail-box-right img
+.thumbnail-box-group .small-thumbnail
 {
-/*	float:left;*/
-	
+	float: left;
+	width: 277px;
+	height: 263px;
+	overflow: hidden;
+	margin-bottom: 8px
 }
+.thumbnail-box-group .small-thumbnail:nth-child(2n+1)
+{
+	margin-right: 8px;
+}
+
 .thumbnail button
 {
 	display: block;
@@ -353,6 +376,12 @@ h2
 .team
 {
 	font-style: italic;
+	overflow: hidden;
+}
+.team-row
+{
+	overflow: hidden;
+	margin-bottom: 65px
 }
 .left-team
 {
@@ -370,20 +399,88 @@ h2
 .right-team p
 {
 	font-size: 25px;
-	margin-top: 115px
 }
-.name-list ul li
+.team-members
+{
+	position: relative;
+}
+.team-members ul{
+	-webkit-transition: left .25s ease;
+	   -moz-transition: left .25s ease;
+	    -ms-transition: left .25s ease;
+	     -o-transition: left .25s ease;
+	        transition: left .25s ease;
+}
+.nav-left,.nav-right
+{
+	width: 25px;
+	height: 24px;
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+	z-index: 11;
+}
+.nav-left
+{
+	background: url(../images/arrow-left.png) no-repeat 0 0;
+	left:0;
+}
+.nav-right
+{
+	background: url(../images/arrow-right.png) no-repeat 0 0;
+	right:0;
+}
+.team-members li.member
 {
 	float:left;
-	padding: 20px 87px;
-	font-size: 20px;
+	text-align:center;
+	width: 230px;
+	position: relative;
+	margin: 0 27px;
+
 }
-.job-description 	ul li
+.team-members li.member h5
 {
-	float:left;
-	padding: 0px 77px;
-	font-family: open sans-serif;
+	font-style: italic;
+	font-size: 25px;
+	margin: 30px 0 20px 0;
+}
+.team-members li.member h6
+{
+	font-family : 'Open Sans',sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: bold;
 	font-size: 13px;
+}
+.image-wrapper
+{
+	position: relative;
+	overflow: hidden;
+	
+}
+.team-members li.member .member-overlay 
+{
+	background: #ef4b2e;
+	padding: 15px;
+	text-align: left;
+	position: absolute;
+	bottom: -100%;
+	width: 100%;
+	min-height: 206px;
+	-webkit-transition: all .5s;
+	   -moz-transition: all .5s;
+	    -ms-transition: all .5s;
+	     -o-transition: all .5s;
+	        transition: all .5s ease;
+	  color: #fff;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	  padding: 44px 35px;
+}
+.team-members li.member:hover .member-overlay {
+	bottom: 0;
 }
 /*....finished team....*/
 
@@ -396,4 +493,149 @@ h2
 {
 	background: url(../images/banner3.png) no-repeat 0 0;
 	height:365px;
+	background-size:cover;
 }
+
+/*...end third banner here...*/
+
+/*....start blog css .....*/
+.blog
+{
+	background: #fbf9ec;
+	margin:20px 0;
+}
+
+.blog 	.menu ul li
+{
+	margin: 75px 0 85px 0;
+}
+.blog-row {
+}
+.blog-box
+{
+	float: left;
+	width: 549px;
+	display: inherit;
+	margin-right: 21px;
+}
+.blog-row.last {
+	margin-top: 45px;
+}
+.blog .date
+{
+	font-family: 'Open Sans',sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	margin-top:25px;
+}
+.blog  .brand
+{
+	font-family: 'Open Sans',sans-serif;
+	font-weight: bold;
+	font-size: 19px;
+	margin-top:5px;
+}
+.blog  h6
+{
+	font-style:italic;
+	font-size: 50px;
+	margin: 25px 0 35px 0;
+}
+.blog p
+{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 14px;	
+}
+
+/*....end blog css....*/
+
+/*...start contact css*/
+.contact p
+{
+	width:715px;
+	font-size: 18px;
+	line-height:25px;
+}
+
+.newsletter-form 
+{
+	padding: 30px 0 68px 0;
+}
+
+.newsletter-form button[type="submit"]
+{
+	background: #ef4b2e;
+	color: #fff;
+	text-transform: uppercase;
+	font-style: normal;
+	padding: 15px 40px;
+	font-size: 13px;
+	font-family: 'open sans';
+	border: none;
+}
+
+input[type="email"] ,
+input[type="text"] {
+	padding: 15px;
+	display: inline;
+	color: #000000;
+	margin-right:15px;
+	border:2px solid #000;
+}
+input[type="email"] {
+	width: 340px;
+}
+::-webkit-input-placeholder {
+   color: #000000;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #000000;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #000000;  
+}
+
+:-ms-input-placeholder {  
+   color: #000000;  
+}
+.banner-last
+{
+	background: url(../images/banner4.jpg) no-repeat  center center;
+	height:300px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.contact-left ul li
+{
+	line-height: 30px;
+	font-style: italic;
+	text-indent: 50px;
+	margin-bottom: 10px;
+}
+.c-address
+{
+	background: url(../images/icon.png) no-repeat left center;
+	
+}
+.c-mail
+{
+	background: url(../images/icon2.png) no-repeat left center;
+}
+.c-e-mail
+{
+	background: url(../images/icon3.png) no-repeat left center;
+}
+.c-phone
+{
+	background: url(../images/icon4.png) no-repeat left center;
+	
+}
+.c-tnc
+{
+	background: url(../images/icon6.png) no-repeat left center;
+	
+}
+

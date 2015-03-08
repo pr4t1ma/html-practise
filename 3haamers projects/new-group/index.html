@@ -6,6 +6,28 @@
 		<title>new group</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script>
+			jQuery(document).ready(function(){
+				jQuery(".team-members").height(400).css({
+					'overflow': 'hidden'
+				});
+				jQuery(".team-members ul").width(289*6).css({
+					'position': 'absolute',
+					'left': 0
+				});
+				jQuery('.nav-right').click(function(){
+					jQuery('.team-members ul').css({
+						'left': "-=1080px"
+					})
+				});
+				jQuery('.nav-left').click(function(){
+						jQuery('.team-members ul').css({
+							'left': "+=1080px"
+						})
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div class="page">
@@ -15,21 +37,21 @@
 						<div class="logo"><h1>Newgroup</h1></div>
 						<div class="menu">
 							<ul>
-								<li><a href="*">About us</a></li>
-								<li><a href="*">Services</a></li>
-								<li><a href="*">Portfolio</a></li>
-								<li><a href="*">Meet the team </a></li>
-								<li><a href="*">Blog</a></li>
-								<li><a href="*">Contact</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Portfolio</a></li>
+								<li><a href="#">Meet the team </a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact</a></li>
 							</ul>
 							<div class="clearfix"></div>
 						</div>
 					</div>
 					<div class="circles">
-						<a href=""><div class="circle active"></div></a>
-						<a href=""><div class="circle"></div></a>
-						<a href=""><div class="circle"></div></a>
-						<a href=""><div class="circle"></div></a>
+						<a href="#"><div class="circle active"></div></a>
+						<a href="#"><div class="circle"></div></a>
+						<a href="#"><div class="circle"></div></a>
+						<a href="#"><div class="circle"></div></a>
 						<div class="clearfix"></div>
 					</div>
 				</div>
@@ -51,7 +73,7 @@
 						<p>NEW stands for Never Ending Weekends: it’s both our motto and the way we live our lives. We are the best design paired with the best thinkers in coding and
 							communications. We don’t look back but we learn from our past. We’re young, bright and keep close tabs on the industry to ensure you are always getting the most up to date advice, design and knowledge. We have fun, but we’re invested in everything we do, and if you’re with us, we’re investing in you too.
 						We are NEW and we’re a creative digital agency.  </p>
-						<a href="">-> read more</a>
+						<a href="#">-> read more</a>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -100,13 +122,13 @@
 					<h2>portfolio</h2>
 					<div class="menu">
 						<ul>
-							<li><a href="">All</a></li>
-							<li class="active"><a href="">Marketing</a></li>
-							<li><a href="">Video</a></li>
-							<li><a href="">Branding</a></li>
-							<li><a href="">Social media</a></li>
-							<li><a href="">Web</a></li>
-							<li><a href="">Print</a></li>
+							<li><a href="#">All</a></li>
+							<li class="active"><a href="#">Marketing</a></li>
+							<li><a href="#">Video</a></li>
+							<li><a href="#">Branding</a></li>
+							<li><a href="#">Social media</a></li>
+							<li><a href="#">Web</a></li>
+							<li><a href="#">Print</a></li>
 						</ul>
 						<div class="clearfix"></div>
 					</div>
@@ -115,22 +137,50 @@
 			</div>
 			<div class="thumbnail">
 				<div class="inner-wrapper">
-					<div class="thumbnail-box-left">
-						<img src="images/thumbnaill.jpg" alt="">
-						<img src="images/thumbnail4.png" alt="">
-						<img src="images/thumbnail3.png" alt="">
-						<img src="images/thumbnail5.png" alt="">
-						<img src="images/thumbnail6.png" alt="">
+					
+					<div class="thumbnail-box-groups clearfix">
+						<div class="thumbnail-box-group">
+							<div class="big-thumbnail">
+								<img src="images/thumbnaill.jpg" alt="">
+							</div>
+						</div>
+						<div class="thumbnail-box-group">
+							<div class="small-thumbnail">
+								<img src="images/thumbnail4.png" alt="">
+							</div>
+							<div class="small-thumbnail">
+								<img src="images/thumbnail3.png" alt="">
+							</div>
+							<div class="small-thumbnail">
+								<img src="images/thumbnail5.png" alt="">
+							</div>
+							<div class="small-thumbnail">
+								<img src="images/thumbnail6.png" alt="">
+							</div>
+						</div>
+						<div class="thumbnail-box-group">
+							<div class="small-thumbnail">
+								<img src="images/thumbnail1.png" alt="">
+							</div>
+							<div class="small-thumbnail">
+								<img src="images/thumbnail2.png" alt="">
+							</div>
+							<div class="small-thumbnail">
+								<img src="images/thumbnail20.jpg" alt="">
+							</div>
+							<div class="small-thumbnail">
+								<img src="images/thumbnail21.jpg" alt="">
+							</div>
+						</div>
+						<div class="thumbnail-box-group">
+							<div class="big-thumbnail">
+								<img src="images/thumbnail7.png" alt="">
+							</div>
+						</div>
 					</div>
-					<div class="thumbnail-box-right">
-						<img src="images/thumbnail1.png" alt="">
-						<img src="images/thumbnail2.png" alt="">
-						<img src="images/thumbnail20.jpg" alt="">
-						<img src="images/thumbnail21.jpg" alt="">
-						<img src="images/thumbnail7.png" alt="">
-						
+					<div class="btn-wrapper">
+						<button>browse all works</button>
 					</div>
-					<button>browse all works</button>
 				</div>
 			</div>
 			<div class="banner-second">
@@ -140,39 +190,197 @@
 			</div>
 			<div class="team">
 				<div class="inner-wrapper">
-					<div class="left-team">
-						<h2>the team</h2>
-						<p>at NEWGROUP, we're more than a team, </p>
-					</div>
-					<div class="right-team">
-						<p>we're an eclectic family of communicators,
-							philosophy is based on hard work, creative ideas
-						and a passionate, smart approach to all our clients</p>
-					</div>
-					<div class="boys-img">
-						<img src="images/boys.jpg" alt="">
-						<div class="name-list">
-							<ul>
-								<li>roey</li>
-								<li>rakhileshameshwor</li>
-								<li>akhilesh</li>
-								<li>stephanie</li>
-							</ul>
+					<h2>the team</h2>
+					<div class="team-row">
+						<div class="left-team">
+							<p>at NEWGROUP, we're more than a team, </p>
 						</div>
-						<div class="job-description">
-							<ul>
-								<li>MANAGING DIRECTOR</li>
-								<li>WEB DEVELOPER</li>
-								<li>WEB DEVELOPER</li>
-								<li>COMMUNICATIONS</li>
-							</ul>
+						<div class="right-team">
+							<p>we're an eclectic family of communicators,
+								philosophy is based on hard work, creative ideas
+							and a passionate, smart approach to all our clients</p>
 						</div>
+					</div>
+					
+					<div class="team-members clearfix">
+						<div class="nav-left"></div>
+						<div class="nav-right"></div>
+						<ul>
+							<li class="member">
+								<div class="image-wrapper">
+									<img src="images/team1.jpg" alt="">
+									<div class="member-overlay">
+										Roey is a typical libra: a sociable,
+										communicator. In our office he's head honcho, but in reality, he's whatever he needs to be. He dabbles in design, coding & inspiring big ideas. He loves to sing, take Instagram photos & his favourite food is steak.
+									</div>
+									
+								</div>
+								<h5>Sabina</h5>
+								<h6>Managing director</h6>
+								
+							</li>
+							<li class="member">
+								<div class="image-wrapper">
+									<img src="images/team2.jpg" alt="">
+									<div class="member-overlay">
+										Roey is a typical libra: a sociable,
+										communicator. In our office he's head honcho, but in reality, he's whatever he needs to be. He dabbles in design, coding & inspiring big ideas. He loves to sing, take Instagram photos & his favourite food is steak.
+									</div>
+									
+								</div>
+								<h5>Anil</h5>
+								<h6>Managing director</h6>
+							</li>
+							<li class="member">
+								<div class="image-wrapper">
+									<img src="images/team3.jpg" alt="">
+									<div class="member-overlay">
+										Roey is a typical libra: a sociable,
+										communicator. In our office he's head honcho, but in reality, he's whatever he needs to be. He dabbles in design, coding & inspiring big ideas. He loves to sing, take Instagram photos & his favourite food is steak.
+									</div>
+									
+								</div>
+								<h5>Pramila</h5>
+								<h6>Managing director</h6>
+								
+							</li>
+							<li class="member">
+								<div class="image-wrapper">
+									<img src="images/team1.jpg" alt="">
+									<div class="member-overlay">
+										Roey is a typical libra: a sociable,
+										communicator. In our office he's head honcho, but in reality, he's whatever he needs to be. He dabbles in design, coding & inspiring big ideas. He loves to sing, take Instagram photos & his favourite food is steak.
+									</div>
+									
+								</div>
+								<h5>roey</h5>
+								<h6>Managing director</h6>
+								
+							</li>
+							<li class="member">
+								<div class="image-wrapper">
+									<img src="images/team3.jpg" alt="">
+									<div class="member-overlay">
+										Roey is a typical libra: a sociable,
+										communicator. In our office he's head honcho, but in reality, he's whatever he needs to be. He dabbles in design, coding & inspiring big ideas. He loves to sing, take Instagram photos & his favourite food is steak.
+									</div>
+									
+								</div>
+								<h5>Pradip</h5>
+								<h6>Managing director</h6>
+								
+							</li>
+							<li class="member">
+								<div class="image-wrapper">
+									<img src="images/team3.jpg" alt="">
+									<div class="member-overlay">
+										Roey is a typical libra: a sociable,
+										communicator. In our office he's head honcho, but in reality, he's whatever he needs to be. He dabbles in design, coding & inspiring big ideas. He loves to sing, take Instagram photos & his favourite food is steak.
+									</div>
+									
+								</div>
+								<h5>Pratima</h5>
+								<h6>Managing director</h6>
+								
+							</li>
+							
+						</ul>
+						
 					</div>
 				</div>
 			</div>
 			<div class="banner-third">
 				
 			</div>
+			<div class="blog">
+				<div class="inner-wrapper">
+					<div class="sub-header clearfix">
+						<h2>news & blog</h2>
+						<div class="menu clearfix">
+							<ul>
+								<li><a href="#">All</a></li>
+								<li class="active"><a href="#">Marketing</a></li>
+								<li><a href="#">Video</a></li>
+								<li><a href="#">Branding</a></li>
+								<li><a href="#">Social media</a></li>
+								<li><a href="#">Web</a></li>
+								<li><a href="#">Print</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="blog-row clearfix">
+						<div class="blog-box">
+							<img src="images/blank-img.jpg" alt="">
+							<div class="date">october. 16. 2014</div>
+							<div class="brand">Brand and communication</div>
+							<h6>what we’re loving in august. </h6>
+							<p>This winter weather has certainly made it a little harder to get out of bed in the morning, bu</p>
+						</div>
+						<div class="blog-box">
+							<img src="images/blank-img.jpg" alt="">
+							<div class="date">october. 16. 2014</div>
+							<div class="brand">Brand and communication</div>
+							<h6>what we’re loving in august. </h6>
+							<p>This winter weather has certainly made it a little harder to get out of bed in the morning, bu</p>
+						</div>
+					</div>
+					<div class="blog-row last clearfix">
+						<div class="blog-box">
+							<img src="images/blank-img.jpg" alt="">
+							<div class="date">october. 16. 2014</div>
+							<div class="brand">Brand and communication</div>
+							<h6>what we’re loving in august. </h6>
+							<p>This winter weather has certainly made it a little harder to get out of bed in the morning, bu</p>
+						</div>
+						<div class="blog-box">
+							<img src="images/blank-img.jpg" alt="">
+							<div class="date">october. 16. 2014</div>
+							<div class="brand">Brand and communication</div>
+							<h6>what we’re loving in august. </h6>
+							<p>This winter weather has certainly made it a little harder to get out of bed in the morning, bu</p>
+						</div>
+					</div>
+					<div class="btn-wrapper">
+						<button>browse all posts</button>
+					</div>
+				</div>
+				
+			</div>
+			<div class="contact">
+				<div class="inner-wrapper">
+					<h2>sign up to our newsletter.</h2>
+					<p>Subscribe to our mailing list to be the first to receive news from the studio and hear about
+					upcoming jobs and events.  </p>
+					<form action="">
+						<div class="newsletter-form">
+							<input type="email" placeholder="Your Email">
+							<input type="text" placeholder="last name">
+							<input type="text" placeholder="first name">
+							<button type="submit">Subscribe</button>
+						</div>
+					</form>
+					
+				</div>
+				<div class="banner-last"></div>
+				<div class="inner-wrapper">
+					<div class="contact-left">
+						<h2>get in touch</h2>
+						<ul>
+							<li class="c-address">6/79-81 old south head road, bondi junction, nsw 2022 australia</li>
+							<li class="c-mail"> po box 2269, rose bay, nsw 2030</li>
+							<li class="c-e-mail"> hello@newgroup.com.au</li>
+							<li class="c-phone"> 02 8014 2162</li>
+							<li class="c-tnc">Terms and Conditions</li>
+						</ul>
+
+					</div>
+					<div class="contact-right">
+						
+					</div>
+					
+				</div>
+			</div>
 		</div>
+		
 	</body>
 </html>
