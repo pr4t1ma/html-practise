@@ -6,7 +6,7 @@ body
 button
 {
 	border:4px solid;
-	background: #fff;
+	background: none;
 	font-style: italic;
 	padding: 23px 53px;
 	font-weight: bold;
@@ -28,6 +28,12 @@ a
 	content: "";
 	clear: both;
 	display: block;
+}
+h2::after
+{
+	content: ".";
+	font-size: 50px;
+	color: #f0592b;
 }
 
 .page
@@ -344,6 +350,21 @@ h2
 	overflow: hidden;
 	margin-bottom: 8px
 }
+.thumbnail-box-group .small-thumbnail:hover
+{
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: relative;
+	cursor: pointer;
+	background: #0f0;
+
+}
+	
+}
 .thumbnail-box-group .small-thumbnail:nth-child(2n+1)
 {
 	margin-right: 8px;
@@ -607,6 +628,11 @@ input[type="email"] {
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+.contact-left
+{
+	width: 50%;
+	float:left;
+}
 
 .contact-left ul li
 {
@@ -638,4 +664,112 @@ input[type="email"] {
 	background: url(../images/icon6.png) no-repeat left center;
 	
 }
+.social-icons
+{
+margin:5pc 0;
+}
+.social-icons ul li
+{
+	height: 9px;
+	width: 74px;
+	float: left;
+	padding: 10px 20px;
+}
+.contact-left .linkedin
+{
+	background: url(../images/footer-logo.png) no-repeat 0 0;
+}
+.contact-left .youtube
+{
+	background: url(../images/footer-logo1.png) no-repeat 0 0;
+}
+.contact-left .twitter
+{
+	background: url(../images/footer-logo2.png) no-repeat 0 0;
+}
+.contact-left .fb
+{
+	background: url(../images/fb.png) no-repeat 0 0;
+	height:20px;
+}
+.contact-left .pinterest
+{
+	background: url(../images/footer-logo4.png) no-repeat 0 0;
+}
+.contact-left .insta
+{
+	background: url(../images/footer-logo5.png) no-repeat 0 0;
+}
 
+
+.contact-right
+{
+	float:left;
+	width:50%;
+}
+.contact-form
+{
+	padding:10px;
+}
+.contact-form input[type="email"] ,
+.contact-form input[type="text"] 
+{
+	border:1px solid #eee;
+	font-style: italic;
+	font-family:georgia;
+	color:#000;
+	display: block;
+	margin-bottom: 10px;
+	padding:10px;
+	width: 100%
+
+ }
+ textarea
+ {
+ 	width: 100%;
+ 	height:150px;
+ 	display: block;
+ 	padding: 10px;
+ 	font-family: georgia;
+ 	font-style: italic;
+ 	border:1px solid #eee;
+ 	margin-bottom: 10px;
+
+ }
+ .contact-form button[type=submit]
+ {
+	border: 2px solid;
+	padding: 15px 53px;
+	font-size: 18px;
+ }
+
+.map
+{
+	background: url(../images/map.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height:250px;
+	
+}
+/*...end contsct css...*/
+
+
+
+/*....start footer css....*/
+.footer
+{
+	background: #000000;
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+	font-family: 'open sans';
+	text-transform: uppercase;
+
+}
+.footer p
+{
+	text-align: center;
+	font-size:12px;
+	
+}
+/*....end footer css*/

@@ -6,28 +6,7 @@
 		<title>new group</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
-		<script src="js/jquery.js"></script>
-		<script>
-			jQuery(document).ready(function(){
-				jQuery(".team-members").height(400).css({
-					'overflow': 'hidden'
-				});
-				jQuery(".team-members ul").width(289*6).css({
-					'position': 'absolute',
-					'left': 0
-				});
-				jQuery('.nav-right').click(function(){
-					jQuery('.team-members ul').css({
-						'left': "-=1080px"
-					})
-				});
-				jQuery('.nav-left').click(function(){
-						jQuery('.team-members ul').css({
-							'left': "+=1080px"
-						})
-				});
-			});
-		</script>
+		
 	</head>
 	<body>
 		<div class="page">
@@ -64,8 +43,9 @@
 			</div>
 			<div class="about-us">
 				<div class="inner-wrapper">
+					<h2>our story</h2>
 					<div class="our-story-left">
-						<h2>our story.</h2>
+						
 						<p>how we spend our days is how we live our lives; and we spend our days having fun.</p>
 						<button>lat's talk about you</button>
 					</div>
@@ -142,6 +122,7 @@
 						<div class="thumbnail-box-group">
 							<div class="big-thumbnail">
 								<img src="images/thumbnaill.jpg" alt="">
+								<div class="img-cover"></div>
 							</div>
 						</div>
 						<div class="thumbnail-box-group">
@@ -215,7 +196,7 @@
 									</div>
 									
 								</div>
-								<h5>Sabina</h5>
+								<h5>roy</h5>
 								<h6>Managing director</h6>
 								
 							</li>
@@ -228,7 +209,7 @@
 									</div>
 									
 								</div>
-								<h5>Anil</h5>
+								<h5>rameshwor</h5>
 								<h6>Managing director</h6>
 							</li>
 							<li class="member">
@@ -240,8 +221,8 @@
 									</div>
 									
 								</div>
-								<h5>Pramila</h5>
-								<h6>Managing director</h6>
+								<h5>akhilesh</h5>
+								<h6>WEB DEVELOPER</h6>
 								
 							</li>
 							<li class="member">
@@ -253,37 +234,10 @@
 									</div>
 									
 								</div>
-								<h5>roey</h5>
-								<h6>Managing director</h6>
+								<h5>stephanie</h5>
+								<h6>WEB DEVELOPER</h6>
 								
 							</li>
-							<li class="member">
-								<div class="image-wrapper">
-									<img src="images/team3.jpg" alt="">
-									<div class="member-overlay">
-										Roey is a typical libra: a sociable,
-										communicator. In our office he's head honcho, but in reality, he's whatever he needs to be. He dabbles in design, coding & inspiring big ideas. He loves to sing, take Instagram photos & his favourite food is steak.
-									</div>
-									
-								</div>
-								<h5>Pradip</h5>
-								<h6>Managing director</h6>
-								
-							</li>
-							<li class="member">
-								<div class="image-wrapper">
-									<img src="images/team3.jpg" alt="">
-									<div class="member-overlay">
-										Roey is a typical libra: a sociable,
-										communicator. In our office he's head honcho, but in reality, he's whatever he needs to be. He dabbles in design, coding & inspiring big ideas. He loves to sing, take Instagram photos & his favourite food is steak.
-									</div>
-									
-								</div>
-								<h5>Pratima</h5>
-								<h6>Managing director</h6>
-								
-							</li>
-							
 						</ul>
 						
 					</div>
@@ -348,7 +302,7 @@
 			</div>
 			<div class="contact">
 				<div class="inner-wrapper">
-					<h2>sign up to our newsletter.</h2>
+					<h2>sign up to our newsletter</h2>
 					<p>Subscribe to our mailing list to be the first to receive news from the studio and hear about
 					upcoming jobs and events.  </p>
 					<form action="">
@@ -363,22 +317,48 @@
 				</div>
 				<div class="banner-last"></div>
 				<div class="inner-wrapper">
-					<div class="contact-left">
-						<h2>get in touch</h2>
-						<ul>
-							<li class="c-address">6/79-81 old south head road, bondi junction, nsw 2022 australia</li>
-							<li class="c-mail"> po box 2269, rose bay, nsw 2030</li>
-							<li class="c-e-mail"> hello@newgroup.com.au</li>
-							<li class="c-phone"> 02 8014 2162</li>
-							<li class="c-tnc">Terms and Conditions</li>
-						</ul>
-
-					</div>
-					<div class="contact-right">
+					<h2>get in touch</h2>
+					<div class="contact-row clearfix">
 						
+						<div class="contact-left">
+							
+							<ul>
+								<li class="c-address">6/79-81 old south head road, bondi junction, nsw 2022 australia</li>
+								<li class="c-mail"> po box 2269, rose bay, nsw 2030</li>
+								<li class="c-e-mail"> hello@newgroup.com.au</li>
+								<li class="c-phone"> 02 8014 2162</li>
+								<li class="c-tnc">Terms and Conditions</li>
+							</ul>
+							<div class="social-icons clearfix">
+								<ul>
+									<li class="linkedin"></li>
+									<li class="youtube"></li>
+									<li class="twitter"></li>
+									<li class="fb"></li>
+									<li class="pinterest"></li>
+									<li class="insta"></li>
+								</ul>
+							</div>
+						</div>
+						<div class="contact-right">
+							<div class="contact-form">
+								<input type="text" placeholder="name*">
+								<input type="email" placeholder="email*">
+								<input type="text" placeholder="how did you hear abou us?*">
+								<input type="text" placeholder="phone*">
+								<input type="text" placeholder="capcha*">
+								<textarea name="message"  placeholder="message"></textarea>
+								<button type="submit">Send</button>
+							</div>
+						</div>
 					</div>
 					
 				</div>
+				<div class="map"></div>
+				
+			</div>
+			<div class="footer">
+				<p>&copy; copyright 2014</p>
 			</div>
 		</div>
 		
