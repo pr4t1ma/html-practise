@@ -192,7 +192,6 @@ h2
 .our-story-right
 {
 	float:left;
-	margin-top:90px;
 	width:570px;
 }
 .our-story-right a
@@ -282,7 +281,7 @@ h2
 /*...start portfolio......*/
 .portfolio
 {
-	margin-bottom:50px;
+	margin-bottom:30px;
 }
 .portfolio .menu,
 .blog .menu
@@ -293,6 +292,7 @@ h2
 .blog h2
 {
 	float:left;
+	margin-top:0px;
 }
 .portfolio h3
 {
@@ -330,6 +330,34 @@ h2
 .thumbnail
 {
 	margin-bottom:80px;
+
+}
+.thumb-overlay
+{
+	width:100%;
+	height:100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	left: -100%;
+	top:0;
+	opacity:0.6;
+	background: #000000;
+	-webkit-transition: left .3s ease;
+	   -moz-transition: left .3s ease;
+	    -ms-transition: left .3s ease;
+	     -o-transition: left .3s ease;
+	        transition: left .3s ease;
+}
+.big-thumbnail,.small-thumbnail{
+	position: relative;
+	overflow: hidden;
+	
+}
+.big-thumbnail:hover .thumb-overlay, .small-thumbnail:hover .thumb-overlay{
+	left: 0px;
 }
 .thumbnail-box-group
 {
@@ -337,6 +365,8 @@ h2
 	width:562px;
 	display: inline;
 	margin-bottom: 10px;
+	
+	
 }
 .thumbnail-box-group:nth-child(2n+1)
 {
@@ -349,19 +379,6 @@ h2
 	height: 263px;
 	overflow: hidden;
 	margin-bottom: 8px
-}
-.thumbnail-box-group .small-thumbnail:hover
-{
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	position: relative;
-	cursor: pointer;
-	background: #0f0;
-
 }
 	
 }
@@ -526,6 +543,8 @@ h2
 	margin:20px 0;
 }
 
+}
+
 .blog 	.menu ul li
 {
 	margin: 75px 0 85px 0;
@@ -538,6 +557,32 @@ h2
 	width: 549px;
 	display: inherit;
 	margin-right: 21px;
+	position: relative;
+	overflow: hidden;
+			
+	
+}
+.blog-overlay
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	right: -100%;
+	background: #f00;
+	opacity: 0.5;
+	border-sizing:border-box;
+	-webkit-transition-timing-function: all .5s;
+	-moz-transition-timing-function: all .5s;
+	-ms-transition-timing-function: all .5s;
+	-o-transition-timing-function: all .5s;
+	transition-timing-function: all .5s;
+	
+
+}
+.blog-box :hover .blog-overlay
+{
+	right:0px;
 }
 .blog-row.last {
 	margin-top: 45px;
