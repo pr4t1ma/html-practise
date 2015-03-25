@@ -25,7 +25,7 @@
 		width:98%;
 	}
 	.home-text p{
-		font-size:45px;
+		font-size:37px;
 		text-align:center;
 	}
 	.our-story-right p{
@@ -51,14 +51,13 @@
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-device-width : 320px) {
 	h2{
 		font-size: 35px;
 	}
 	.header {
-    color: #fff;
-    font-family: "Open Sans",sans-serif;
-    padding-top: 15px;
+	    color: #fff;
+	    padding-top: 15px;
 	}
 
 	.banner {
@@ -66,18 +65,18 @@
 	    height: 236px;
 	    position: relative;
 	}
-	 	.header{
+ 	.header{
 
-	 	}
-	 	.home-text {
+ 	}
+ 	.home-text {
 	    padding: 30px 0;
 	}
-		.home-text .roy {
+	.home-text .roy {
 		  font-size: 30px;
 		  margin-top: 20px;
 		  text-align: center;
 	}
-	 	.home-text p::before {
+ 	.home-text p::before {
 	    content: "“";
 	    font-family: georgia;
 	    font-size: 35px;
@@ -95,13 +94,10 @@
 	    top: -50px;
 	    transform: rotate(180deg);
 	}
-	.home-text p {
-	    font-size: 28px;
-	    text-align: center;
-	}
+
 	.home-text p {
 	    font-family: "JaneAusten Nosecret";
-	    font-size: 70px;
+	    font-size: 28px;
 	    position: relative;
 	    text-align: center;
 	}
@@ -151,7 +147,6 @@
 	    text-align: center;
 	    width: 100%;
 	}
-	}
 	.thumbnail-box-group {
 	    display: inline;
 	    float: left;
@@ -173,7 +168,7 @@
 	}
 	.blog h6{
 		font-size: 30px;
-		  margin: 25px 0 45px;
+		 margin: 25px 0 45px;
 	}
 	.content p{
 		width: 100%;
@@ -195,16 +190,16 @@
 	.social-icon ul li{
 		width:20px;
 	}
-	}
+}
 
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	img{
+	/*img{
 		width:100%;
-	}
+	}*/
 	h2{
-		margin-top:10px;
+		margin: 10px 0 20px 0
 	}
 	.inner-wrapper{
 		width: 94%;
@@ -222,63 +217,68 @@
 	{
 		width:46%;
 	}
-	/*start services css from here.....*/
-
-	.services .right-col {
+	.services{
+		background: none;
+		height:500px;
+	}
+	.services .left-col,.services .right-col
+	 {
 	    float: left;
-	    margin-right: 10%;
 	    width: 45%;
 	}
+	.services .right-co{
+		margin-right: 10%;
+	}
 	.services .left-col, .services .right-col {
-    line-height: 20px;
-}
-/*....end services css here....*/
-
-/*...portfolio css start from here...*/
-
+    	line-height: 20px;
+	}
 	.portfolio {
 	    margin: 30px 0;
 	}
 	.portfolio h2{
 		clear:both;
 	}
-	/*.....end cportfolio css here...*/
-
-
-	/*...thumbnail css start from here....*/
+	.thumbnail-box-group{
+		float:left;
+	}
 	.thumbnail img{
 		width:50%;
 	}
 	.thumb-overlay{
 		width: 100%;
 	}
-	/*...end thumbnail css ....*/
 
-	/*...team css start from here...*/
-	.team-left{
+	.thumbnail-box-group .small-thumbnail {
+	  width: 48%;
+	  margin-right: 2%;
+	}
+	.left-team, .right-team{
+		width:45%;
+	}
+	.team-members li.member{
 		width:40%;
 	}
-	/*....end team css ....*/
-
-	/*... start blog box css from .......*/
+	.team-members li.member h6{
+		margin-bottom: 10px;
+	}
 	.blog-box{
 		width: 45%;
 	}
 
-input[type="email"], input[type="text"] {
-	 width: 20%;
-}
+	input[type="email"], input[type="text"] {
+		 width: 20%;
+	}
 
-.newsletter-form button[type="submit"] {
-    width: 19%;
-}
+	.newsletter-form button[type="submit"] {
+	    width: 19%;
+	}
 
-.contact-left,.contact-left {
-	width: 45%;
-}
-.map{
-	height:200px;
-}
+	.contact-left,.contact-left {
+		width: 45%;
+	}
+	.map{
+		height:200px;
+	}
 }
 
 /* iPads (landscape) ----------- */

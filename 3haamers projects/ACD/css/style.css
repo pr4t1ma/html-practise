@@ -1,0 +1,45 @@
+body{
+	font-size:13px;
+	font-family: 
+}
+a{
+	text-decoration:none;
+}
+ul {
+  list-style: none;
+}
+.button{
+  background: #c8dddd;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 31px;
+  color: #618abd;
+  border: none;
+  text-transform: uppercase;
+
+}
+.clearfix{
+	clear:both;
+}
+.wrapper{
+	width:1030px;
+	margin:0px auto;
+}
+.header{
+	margin:45px 0 20px 0;
+}
+.header .social-media{
+	float:left;
+	margin-right:170px;
+}
+.header .social-media ul li{
+	float: left;
+  	margin-right: 14px
+}
+.logo{
+	float:left;
+	margin-right:170px;
+}
+.right-button{
+	float:left;
+}
